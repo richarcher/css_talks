@@ -1,0 +1,45 @@
+/* COLOUR KEYWORDS: 'white', tomato', 'orangered', 'dodgerblue', 'royalblue', 'aliceblue', 'lightgrey' */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+a {
+  color: dodgerblue;
+}
+
+a:hover {
+  color: orangered;
+}
+
+.o-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+}
+
+.o-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.o-grid__col {
+  flex: 1 1 10em;
+}
+
+.o-grid__col--thirds {
+  flex: 2 0 20em;
+}
+
+.c-footer {
+  background-color: lightgrey;
+  font-size: .8em;
+  text-align: right;
+  min-height: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
